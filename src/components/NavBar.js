@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 
 export default class NavBar extends Component {
-    render() {
-        return (
-
-            <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  render() {
+    return (
+      <div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="\">NewsDaily</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +25,8 @@ export default class NavBar extends Component {
                         </div>
                     </div>
                 </nav>
-            </div>
-        )
-    }
+      </div>
+    )
+  }
 }
+
